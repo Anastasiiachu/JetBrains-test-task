@@ -10,7 +10,7 @@ This article describes how to write regular expressions using the [Regexp][regex
 
 * [extract dates from input strings](#extract-date-from-string);
 * [validate email addresses](#validate-email-address);
-* [format phone numbers](#format-phone-numbers).
+* [format phone numbers](#format-phone-number).
 
 > Refer to [Class Pattern][pattern-class] to learn about pattern syntax.
 
@@ -77,7 +77,7 @@ fun main() {
 }
 ```
 
-## Format phone numbers
+## Format phone number
 
 You can use regular expressions to format input phone numbers.
 For example, to separate the country and area codes from a phone number:
