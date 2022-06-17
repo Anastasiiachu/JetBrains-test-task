@@ -3,7 +3,7 @@
 ---
 
 If you aim to find matching strings by a pattern, you can use [regular expressions][about-regex] (regex for short).
-They also allow variously manipulating strings.
+They also allow manipulating strings.
 For example, you can find and replace a string with other one
 or split it into parts according to a specific principle.
 
@@ -50,7 +50,7 @@ fun main() {
 ## Validate email address
 
 Validating email addresses is one of the use cases for regular expressions.
-For example, to check if an email conforms to a `name.surname@jetbrains.com` template:
+For example, to check if an email corresponds to a `name.surname@jetbrains.com` template:
 
 1. Call the [`Regex`][constructor] constructor and pass the following argument into it: `"^[a-z]+\\.[a-z]+@jetbrains\\.com$"`.
 
